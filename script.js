@@ -219,3 +219,73 @@ if (num % 2 === 0) {
 else if (num % 2 !== 0) {
     alert(`${num} is odd`);    
 }
+    a = parseInt(prompt("Enter first number: "));
+    b = parseInt(prompt("Enter second number: "));
+
+if (a > b) {
+    alert(`${a} is greater than ${b}`);    
+}
+else if (a < b){
+    alert(`${a} is less than ${b}`);    
+}
+else if (a === b) {
+    alert("the numbers are equal");    
+}
+ else if (isNaN(a) || isNaN(b)) {
+    alert("You self look wetin you dey write");
+ }      
+
+//write a program to check if a number is even or odd
+ num = parseInt(prompt("Enter number: "));
+if (num % 2 === 0) {
+    alert(`${num} is even`);
+}
+else  {
+    alert(`${num} is odd`);    
+}
+// if else if statement
+
+let grade = parseInt(prompt("Enter your grade: "));
+if (grade >= 70 && grade <= 100) {  
+    alert(" Excellent you got A ");    
+}
+else if (grade >= 60 && grade < 70) {
+    alert(" You are good B ");    
+}
+else if (grade >= 50 && grade < 60) {
+    alert("Average C ");    
+}
+else if (grade >= 40 && grade < 50) {
+    alert(" You should learn more D ");    
+}
+else if (grade >= 0 && grade < 40) {
+    alert("You no sabi book F student");    
+}
+else if (grade < 0) {
+    alert("You are owing me mark");    
+}
+else if (grade > 100) {
+    alert("You are a liar");    
+}
+else if (isNaN(grade)) {
+    alert("You self look wetin you dey write");    
+}
+
+let Weight = parseFloat(prompt("Enter your Weight: "));
+let Height = parseFloat(prompt("Enter your Height: "));
+let BMI = Weight / (Height * Height);
+if (BMI < 18.5) { 
+    alert("You are underweight");    
+}
+else if (BMI >= 18.5 && BMI < 24.9) {
+    alert("You are normal weight");    
+}
+else if (BMI >= 25 && BMI < 29.9) {
+    alert("You are overweight");    
+}
+else if (BMI >= 30) {
+    alert("You are obese");    
+}
+else if (isNaN(Weight) || isNaN(Height)) {
+    alert("You self look wetin you dey write");    
+}
