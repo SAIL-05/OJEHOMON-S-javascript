@@ -289,3 +289,41 @@ else if (BMI >= 30) {
 else if (isNaN(Weight) || isNaN(Height)) {
     alert("You self look wetin you dey write");    
 }
+
+// Write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
+
+// Write a program that determines if a year is a leap year.
+
+// Write a program that calculates a discount based on the purchase amount.Prices equal or over 100 discount have a discount of 20. Prices equal or over 50 have a discount of 10. Otherwise discount is 0
+
+// Write a program that greets the user based on the time of day. Display good morning, good afternnon or good evening based on the time of day when you run the code.
+// Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give players clues if their guess is higher, lower or correct.
+let nameBox = ["John", "Jane", "Doe", "Smith", "Emily", "Michael", "Sarah"];
+nameBox.push("David");
+nameBox.pop();
+nameBox.shift();
+nameBox.unshift("Chris");
+nameBox.indexOf("Doe");
+nameBox.join(" ");
+nameBox.slice(1, 4);
+nameBox.splice(2, 1, "Alex", "Emma");
+console.log(nameBox);
+
+//objects
+
+let person = {
+    name: "John",
+    age: 30, 
+    score:90,
+}
+
+
+// function callMyName(){
+//     var name ='ife';
+//     for (let i = 0; i < 4; i++){
+//         let newName = 'ope';
+//         var secname = 'james';
+//     }
+//     console.log(newName);
+//     console.log(secname);
+// }
